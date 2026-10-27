@@ -1,6 +1,6 @@
 <!-- Typing SVG -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0C71F7&width=435&lines=Hi%2C+I%C2%B4m+Chandramouli+%F0%9F%91%8B;Welcome+to+my+GitHub+page+%F0%9F%A7%A0%F0%9F%A7%AC%F0%9F%92%BB%F0%9F%93%8A" />
+<p align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=42&pause=1000&color=0C71F7&width=850&height=120&lines=Hi%2C+I%C2%B4m+Chandramouli+%F0%9F%91%8B;Welcome+to+my+GitHub+page+%F0%9F%A7%A0%F0%9F%A7%AC%F0%9F%92%BB%F0%9F%93%8A" />
 </p>
 
 [![email](https://img.shields.io/badge/email-muralidharan.chandramouli%40gmail.com-green)](mailto:muralidharan.chandramouli@gmail.com)
@@ -8,7 +8,7 @@
 
 ### About Me
 
-Bioinformatics Professional with 4+ years of experience across genomics (ONT Long-read DNAseq), epigenetics (DNAm Array), transcriptomics (bulk RNAseq, single-cell/nucleus RNAseq), proteomics (global, phospho, co-IP) and multi-omic integration. I turn complex, high-dimensional biomedical data into biologically relevant actionable insights, drawing on my background in molecular biology to ask the right questions before reaching for the right method. For my data analysis, I build reproducible workflows in full adherence to FAIR data principles.
+I am a Bioinformatics Professional with 4+ years of experience across genomics (ONT Long-read DNAseq), epigenetics (DNAm Array), transcriptomics (bulk RNAseq, single-cell/nucleus RNAseq), proteomics (global, phospho, co-IP) and multi-omic integration. I turn complex, high-dimensional biomedical data into biologically relevant actionable insights, drawing on my background in molecular biology to ask the right questions before reaching for the right method. For my data analysis, I build reproducible workflows in full adherence to FAIR data principles.
 
 I bridge wet-lab and computational teams, and I have extensive experience in coordinating cross-functional collaborations. Passionate about disease mechanisms and therapeutic discovery, I am eager to apply my skills to solving real-world problems.
 
