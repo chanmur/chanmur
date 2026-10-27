@@ -19,6 +19,34 @@ I bridge wet-lab and computational teams, and I have extensive experience in coo
 - 🧫 Other experience: Software Developer, TCS
 - 📍 Lund, Sweden
 
+#### 🔬 How I Work
+
+```mermaid
+flowchart TD
+    A["01 · Biological Question"] --> B["02 · Experimental Design"]
+    B --> C["03 · Data Processing"]
+    C --> D["04 · Reproducible Pipeline"]
+    D --> E["05 · Data Analysis"]
+    E --> F["06 · Visualization"]
+    F --> G["07 · Biological Interpretation & Inference"]
+    G --> H["08 · Connecting to the Broader Goal"]
+    H --> I["09 · Documentation & Presentation"]
+
+    G -. "Refine hypotheses" .-> A
+    H -. "Guide future analyses" .-> E
+
+    classDef biology fill:#DCEFE3,stroke:#468568,color:#183D2B
+    classDef computing fill:#DDEBFA,stroke:#5086B8,color:#173653
+    classDef insight fill:#EEE4FA,stroke:#9370B8,color:#38234D
+    classDef delivery fill:#FCE8D5,stroke:#C78A4A,color:#593817
+
+    class A,B biology
+    class C,D,E computing
+    class F,G,H insight
+    class I delivery
+```
+
+
 #### Featured Projects
 | Project                                                                                                   | Description                                                                                                                                                                                | Featured                                                                              |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
