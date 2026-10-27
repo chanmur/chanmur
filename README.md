@@ -6,62 +6,20 @@
 [![email](https://img.shields.io/badge/email-muralidharan.chandramouli%40gmail.com-green)](mailto:muralidharan.chandramouli@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Chandramouli%20Muralidharan-0A66C2?logo=linkedin&logoColor=white)](www.linkedin.com/in/chandramouli-m)
 
-### About Me
+## About Me
 
 I am a Bioinformatics Professional with 4+ years of experience across genomics (ONT Long-read DNAseq), epigenetics (DNAm Array), transcriptomics (bulk RNAseq, single-cell/nucleus RNAseq), proteomics (global, phospho, co-IP) and multi-omic integration. I turn complex, high-dimensional biomedical data into biologically relevant actionable insights, drawing on my background in molecular biology to ask the right questions before reaching for the right method. For my data analysis, I build reproducible workflows in full adherence to FAIR data principles.
 
 I bridge wet-lab and computational teams, and I have extensive experience in coordinating cross-functional collaborations. Passionate about disease mechanisms and therapeutic discovery, I am eager to apply my skills to solving real-world problems.
 
-#### Background
+### Background
 - 🎓 Ph.D., Medical Sciences, Lund University
 - 🎓 M.Sc., Molecular Biology, Genetics and Biotechnology, Lund University
 - 🎓 B.Tech., Biotechnology, SASTRA University
 - 🧫 Other experience: Software Developer, TCS
 - 📍 Lund, Sweden
 
-#### 🔬 How I Work
-
-```mermaid
-flowchart TD
-    A["01 · Biological Question<br/>Define the problem and biological hypothesis"]
-    B["02 · Experimental Design<br/>Plan samples, assays, controls, and study design"]
-    C["03 · Data Processing<br/>Transform raw data into quality-controlled inputs"]
-    D["04 · Reproducible Pipeline<br/>Automate workflows with version control and computing environments"]
-    E["05 · Data Analysis<br/>Apply appropriate statistical and computational methods"]
-    F["06 · Visualization<br/>Communicate patterns, comparisons, and uncertainty"]
-    G["07 · Biological Interpretation & Inference<br/>Interpret results and distinguish evidence from inference"]
-    H["08 · Connecting to the Broader Goal<br/>Relate findings to mechanisms, disease, and the original research question"]
-    I["09 · Documentation & Presentation<br/>Deliver documented code, reproducible results, and clear scientific communication"]
-
-    A --> B --> C --> D --> E --> F --> G --> H --> I
-    G -. "Refine hypotheses" .-> A
-    H -. "Guide further analysis" .-> E
-
-    classDef biology fill:#DCEFE3,stroke:#468568,color:#183D2B
-    classDef computing fill:#DDEBFA,stroke:#5086B8,color:#173653
-    classDef insight fill:#EEE4FA,stroke:#9370B8,color:#38234D
-    classDef delivery fill:#FCE8D5,stroke:#C78A4A,color:#593817
-
-    class A,B biology
-    class C,D,E computing
-    class F,G,H insight
-    class I delivery
-```
-
-
-#### Featured Projects
-| Project                                                                                                   | Description                                                                                                                                                                                | Featured                                                                              |
-| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
-| [**Long-read_SVA_Poly**](https://github.com/chanmur/Long-read_SVA_Poly)                                   | Nextflow pipeline for structural variant calling and SVA annotation in Oxford Nanopore long-read sequencing.                                                                               | Pilot                                                                                 |
-| [**DPSC_iN**](https://github.com/chanmur/DPSC_iN)                                                         | Nextflow pipelines and R workflows for bulk RNA-seq, proteomics, DNAm arrays, single-nucleus RNA-seq, and multi-omic analysis of neuronal reprogramming from human dental pulp stem cells. | [bioRxiv preprint](https://www.biorxiv.org/content/10.64898/2026.07.24.740560v1.full) |
-| [**iN_HD_PMS_analysis_2025**](https://github.com/chanmur/iN_HD_PMS_analysis_2025)                         | Analysis of phospho-enriched, global, and Co-IP mass spectrometry data from Huntington’s disease patient-derived induced neurons.                                                          | [Cellular & Molecular Biology Letters](https://doi.org/10.1186/s11658-026-00948-2)    |
-| [**ppfctx_aging_snRNAseq_analysis_2025**](https://github.com/chanmur/ppfctx_aging_snRNAseq_analysis_2025) | Single-nucleus RNA-seq analysis of prefrontal cortex aging and cell-type-specific transcriptomic aging clocks.                                                                             | [Advanced Science](https://doi.org/10.1002/advs.202506109)                            |
-| [**LINC00662_PTERV_Gerdes2025**](https://github.com/chanmur/LINC00662_PTERV_Gerdes2025)                   | Multi-omics analysis of retroviral insertions and human–chimpanzee brain evolution.                                                                                                        | [Science Advances](https://doi.org/10.1126/sciadv.aeg5791)                            |
-
----
-
-
-#### 🧰 Technical Toolkit
+### 🧰 Technical Toolkit
 
 **Programming Languages**
 
@@ -88,6 +46,45 @@ flowchart TD
 
 ---
 
+### 🔬 How I Work
+
+```mermaid
+flowchart TD
+    A["01 · Biological Question<br/>Define the problem and biological hypothesis"]
+    B["02 · Experimental Design<br/>Plan samples, assays, controls, and study design"]
+    C["03 · Data Processing<br/>Transform raw data into quality-controlled inputs"]
+    D["04 · Reproducible Pipeline<br/>Automate workflows with version control in computing environments"]
+    E["05 · Data Analysis<br/>Apply appropriate statistical and computational methods"]
+    F["06 · Visualization<br/>Communicate patterns, comparisons, and uncertainty"]
+    G["07 · Biological Interpretation & Inference<br/>Interpret results and draw inference"]
+    H["08 · Connecting to the Broader Goal<br/>Relate findings to mechanisms, disease, and the original research question"]
+    I["09 · Documentation & Presentation<br/>Deliver documented code, reproducible results, and clear scientific communication"]
+
+    A --> B --> C --> D --> E --> F --> G --> H --> I
+    G -. "Refine hypotheses" .-> A
+    H -. "Guide further analysis" .-> E
+
+    classDef biology fill:#DCEFE3,stroke:#468568,color:#183D2B
+    classDef computing fill:#DDEBFA,stroke:#5086B8,color:#173653
+    classDef insight fill:#EEE4FA,stroke:#9370B8,color:#38234D
+    classDef delivery fill:#FCE8D5,stroke:#C78A4A,color:#593817
+
+    class A,B biology
+    class C,D,E computing
+    class F,G,H insight
+    class I delivery
+```
+
+### Featured Projects
+| Project                                                                                                   | Description                                                                                                                                                                                | Featured                                                                              |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| [**Long-read_SVA_Poly**](https://github.com/chanmur/Long-read_SVA_Poly)                                   | Nextflow pipeline for structural variant calling and SVA annotation in Oxford Nanopore long-read DNA sequencing data.                                                                               | Pilot                                                                                 |
+| [**DPSC_iN**](https://github.com/chanmur/DPSC_iN)                                                         | Nextflow pipelines and R workflows for bulk RNA-seq, proteomics, DNAm arrays, single-nucleus RNA-seq, and multi-omic analysis of neuronal reprogramming from human dental pulp stem cells. | [bioRxiv preprint](https://www.biorxiv.org/content/10.64898/2026.07.24.740560v1.full) |
+| [**iN_HD_PMS_analysis_2025**](https://github.com/chanmur/iN_HD_PMS_analysis_2025)                         | Analysis of phospho-enriched, global, and Co-IP mass spectrometry-based proteomic data from Huntington’s disease patient-derived induced neurons.                                                          | [Cellular & Molecular Biology Letters](https://doi.org/10.1186/s11658-026-00948-2)    |
+| [**ppfctx_aging_snRNAseq_analysis_2025**](https://github.com/chanmur/ppfctx_aging_snRNAseq_analysis_2025) | Single-nucleus RNA-seq analysis of prefrontal cortex aging and evaluation of cell-type-specific transcriptomic aging clocks.                                                                             | [Advanced Science](https://doi.org/10.1002/advs.202506109)                            |
+| [**LINC00662_PTERV_Gerdes2025**](https://github.com/chanmur/LINC00662_PTERV_Gerdes2025)                   | Proteomic analysis to identify RNA-binding partners, and single-nucleus RNA-seq analysis of human forebrain organoids.                                                                                                        | [Science Advances](https://doi.org/10.1126/sciadv.aeg5791)                            |
+
+---
 
 
 
