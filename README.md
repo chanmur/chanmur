@@ -23,17 +23,19 @@ I bridge wet-lab and computational teams, and I have extensive experience in coo
 
 ```mermaid
 flowchart TD
-    A["01 · Biological Question"] --> B["02 · Experimental Design"]
-    B --> C["03 · Data Processing"]
-    C --> D["04 · Reproducible Pipeline"]
-    D --> E["05 · Data Analysis"]
-    E --> F["06 · Visualization"]
-    F --> G["07 · Biological Interpretation & Inference"]
-    G --> H["08 · Connecting to the Broader Goal"]
-    H --> I["09 · Documentation & Presentation"]
+    A["01 · Biological Question<br/>Define the problem and biological hypothesis"]
+    B["02 · Experimental Design<br/>Plan samples, assays, controls, and study design"]
+    C["03 · Data Processing<br/>Transform raw data into quality-controlled inputs"]
+    D["04 · Reproducible Pipeline<br/>Automate workflows with version control and computing environments"]
+    E["05 · Data Analysis<br/>Apply appropriate statistical and computational methods"]
+    F["06 · Visualization<br/>Communicate patterns, comparisons, and uncertainty"]
+    G["07 · Biological Interpretation & Inference<br/>Interpret results and distinguish evidence from inference"]
+    H["08 · Connecting to the Broader Goal<br/>Relate findings to mechanisms, disease, and the original research question"]
+    I["09 · Documentation & Presentation<br/>Deliver documented code, reproducible results, and clear scientific communication"]
 
+    A --> B --> C --> D --> E --> F --> G --> H --> I
     G -. "Refine hypotheses" .-> A
-    H -. "Guide future analyses" .-> E
+    H -. "Guide further analysis" .-> E
 
     classDef biology fill:#DCEFE3,stroke:#468568,color:#183D2B
     classDef computing fill:#DDEBFA,stroke:#5086B8,color:#173653
